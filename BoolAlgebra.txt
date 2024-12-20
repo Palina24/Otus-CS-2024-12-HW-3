@@ -1,0 +1,22 @@
+﻿Y = ABCD + ABC + ABCD + ABD + ABCD + BCD + A 
+  = ABCD + ABCD + ABC + ABD + ABCD + BCD + A
+  = ABCD + ABCD + ABCD + ABC + ABD + BCD + A
+  = ABCD + ABC + ABD + BCD + A
+  = ABC(D + 1) + ABD + A + BCD 
+  = ABC*1 + A(BD + 1) + BCD
+  = ABC + A*1 + BCD 
+  = A(BC + 1) + BCD 
+  = A*1 + BCD
+  = A + BCD
+
+Y = ABC + ABC = ABC
+
+Y = ABC + AB = AB(C + 1)
+  = AB*1 = AB
+
+Y = ABCD + ABCD + ~A + B + C + D
+  = ABCD + ~A + B + C + D
+  = ABCD + B + C + D + ~A 
+  = B(ACD + 1) + C + D + ~A
+  = B*1 + C + D + ~A
+  = ~A + B + C + D
